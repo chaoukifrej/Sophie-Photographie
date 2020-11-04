@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- By Chaouki FREJ -->
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sophie Photographies</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Barre de navigation-->
+      <nav class="menu">
+        <img src="images/logo.png" alt="logo" class="logo"/>
+        <ul class="menubar">
+          <li><a href="#quisuisje">Qui suis-je ?</a></li>
+          <li><a href="#mescreations">Mes Créations</a></li>
+          <li><a href="#tarifs">Tarifs</a></li>
+          <li><a href="#contactezmoi">Contactez-moi</a></li>
+        </ul>
+      </nav>
+    <!-- titre et background d'en tete  -->
+    <header>
+      <div class="title">
+        <h1>Sophie Photographies</h1>
+        <p>Vos photos, ma passion.</p>
+      </div>
+    </header>
+
+    <!-- Premiere section -->
+  <section class="title-section" id="quisuisje">
+    <div class="article-sophie">
+      <h2>Qui suis-je ?</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptates delectus amet? Aperiam voluptate facilis voluptatem molestias repudiandae ratione impedit at tempore? Rem dicta reiciendis recusandae, quaerat ab animi cumque.</p>
+      <p>Eaque molestias, unde hic veniam numquam voluptate quas earum provident libero quaerat quibusdam possimus saepe sit ipsa accusamus odit cupiditate? Impedit culpa veniam, ex quia aliquid error officiis ab quis?</p>
+      <p>Earum, fuga! Odio numquam in distinctio labore libero at nisi odit reprehenderit aperiam. Rem similique necessitatibus ut dolores molestias nisi laboriosam harum nihil, vitae iusto. Illo amet omnis distinctio quos?</p>
+      <p>Explicabo, sapiente molestiae? Tempora eligendi a quibusdam est eveniet reprehenderit magnam quas, nemo similique necessitatibus deleniti veritatis nihil nobis error perspiciatis itaque, quae quo sed sit consequuntur? Tenetur, autem eligendi!</p>
+      <p class="signature-sophie">- Sophie</p>
+    </div>
+    <div class="photo-sophie"></div>
+  </section>
+    <!-- Deuxieme section -->
+  <section class="title-section" id="mescreations">
+      <h2>Mes Créations</h2>
+      <div>
+        <img src="images/picture1.jpg" alt="Quelques photos prises par Sophies pour illustrer son travail"/>
+        <img src="images/picture2.jpg" alt="Quelques photos prises par Sophies pour illustrer son travail"/>
+        <img src="images/picture3.jpg" alt="Quelques photos prises par Sophies pour illustrer son travail"/>
+        <img src="images/picture5.jpg" alt="Quelques photos prises par Sophies pour illustrer son travail"/>
+        <img src="images/picture7.jpg" alt="Quelques photos prises par Sophies pour illustrer son travail"/>
+        <img src="images/picture8.jpg" alt="Quelques photos prises par Sophies pour illustrer son travail"/>
+      </div>
+  </section>
+  <!-- Troisieme section -->
+  <section class="title-section" id="tarifs">
+      <h2>Tarifs</h2>
+      <table>
+        <thead>
+          <tr class="table-haut">
+            <th>Prestation</th>
+            <th>Description</th>
+            <th>Durée</th>
+            <th>Prix</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Portrait simple</td>
+            <td>Lorem ipsum dolor sit amet</td>
+            <td>X.min</td>
+            <td>X € TTC</td>
+          </tr>
+          <tr>
+            <td>Portrait professionnel (3 prises)</td>
+            <td>Lorem ipsum dolor sit amet</td>
+            <td>X.min</td>
+            <td>X € TTC</td>
+          </tr>
+          <tr>
+            <td>Photos de groupe</td>
+            <td>Lorem ipsum dolor sit amet</td>
+            <td>X.min</td>
+            <td>X € TTC</td>
+          </tr>
+          <tr>
+            <td>Mariage</td>
+            <td>Lorem ipsum dolor sit amet</td>
+            <td>X.min</td>
+            <td>X € TTC</td>
+          </tr>
+        </tbody>
+      </table>
+  </section>
+
+  <!-- Derniere section -->
+  <section class="title-section" id="contactezmoi">
+    <h2>Contactez-moi</h2>
+    <div class="contact">
+      <label for="name">Prénom</label>
+      <input type="text" required>
+
+      <label for="lastname">Nom</label>
+      <input type="text" required>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+
+      <label for="message">Message:</label>
+      <textarea name="message" id="message" cols="30" rows="2" required></textarea>
+
+      <div class="check-condition">
+        <input type="checkbox" name="condition" id="condition">
+        <label for="condition">J'accepte que mes données si dessus soit traitées à des fins de contacts commerciales.</label>
+      </div>
+
+      <button>Envoyer</button>
+      
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <p>&copy; Sophie Photographies 2020</p>
+  </footer>
+</body>
+</html>

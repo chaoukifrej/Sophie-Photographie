@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  background-color: rgb(245, 245, 245);
+  font-family: sans-serif;
+  
+}
+
+body section .title-section {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+/* Menu superieur */
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 64px;
+  background-color: white;
+  box-shadow: 0px 3px 10px rgb(102, 102, 102);
+  z-index: 1000;
+}
+
+.logo {
+  height: 50px;
+  margin: 7px 15px;
+}
+
+.menubar {
+  float: right;
+  margin: 0px;
+  padding: 0px 15px;
+  height: 64px;
+  overflow: hidden;
+}
+
+.menubar li {
+  display: inline-block;
+  height: 64px;
+  line-height: 64px;
+  margin: 0 -3px;
+}
+
+.menubar a {
+  display: block;
+  text-align: center;
+  padding: 1px 12px;
+  text-decoration: none;
+  color: black;
+}
+.menubar a:hover {
+  background-color: black;
+  color: white;
+}
+
+/*  Fin menu supérieur */
+
+/* Debut en tete titre */
+header {
+  background-image: url("images/top.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 20vh;
+}
+.title h1 {
+  text-align: center;
+  color: white;
+  font-size: 75px;
+}
+
+.title p {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+}
+
+/* Fin en tete titre */
+
+/* Debut Section Qui-suis-je ? */
+#quisuisje {
+  display: flex;
+  min-height: 70vh;
+  background-color: rgb(255, 255, 255);
+  text-align: justify;
+}
+
+#quisuisje .article-sophie {
+  flex: 1;
+  padding: 30px;
+}
+
+#quisuisje .signature-sophie {
+  text-align: end;
+  margin-right: 10px;
+}
+
+#quisuisje .photo-sophie {
+  background-image: url("images/sophie.jpg");
+  background-size: cover;
+  flex: 1;
+}
+
+/* Fin Section Qui-suis-je ? */
+
+/* Debut Section Mes Créations */
+#mescreations {
+  background-color: rgb(20, 20, 20);
+  padding: 20px 0px;
+  clear: both;
+}
+
+#mescreations h2 {
+  color: white;
+  text-align: center;
+}
+
+#mescreations div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#mescreations img {
+  width: 100%;
+  max-height: 250px;
+  flex-basis: 300px;
+  margin: 20px;
+}
+/* Fin Section Mes Créations */
+
+/* Debut Section Tarifs */
+#tarifs {
+  background-color: white;
+  padding: 20px 25px 60px 20px;
+}
+
+#tarifs h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#tarifs table {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#tarifs th,
+td,
+tr {
+  border: 1px solid black;
+  padding: 15px 30px;
+}
+
+.table-haut {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+/* Fin Section Tarifs */
+
+/* Debut Section Contact */
+#contactezmoi {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  padding: 20px 30px 50px 20px;
+}
+
+#contactezmoi .contact {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 24%;
+  padding-right: 24%;
+}
+
+#contactezmoi h2 {
+  text-align: center;
+}
+
+#contactezmoi label {
+  margin: 20px 0px 10px 0px;
+}
+
+#contactezmoi input,
+textarea {
+  border-radius: 6px;
+  padding: 9px;
+  border: transparent;
+}
+
+#contactezmoi .check-condition {
+  margin: 20px 0 30px 0;
+}
+
+#contactezmoi button {
+  height: 42px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  border-radius: 6px;
+  border: 2px solid white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#contactezmoi button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+}
+/* Fin Section Contact */
+
+/* Debut Footer */
+footer {
+  background-color: rgb(58, 58, 58);
+  display: block;
+  height: 64px;
+}
+footer p {
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 0;
+  color: white;
+  font-weight: 500;
+}
+
+
+/* Fin Footer */
